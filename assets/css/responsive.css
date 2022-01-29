@@ -65,7 +65,13 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
   }
+
+  .see-more-btn {
+    left: 79%;
+  }
 }
+
+/* ====================================  */
 
 /* mobile  */
 @media only screen and (max-width: 480px) {
@@ -154,5 +160,9 @@
   .products {
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
+  }
+
+  .see-more-btn {
+    left: 70%;
   }
 }
