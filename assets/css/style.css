@@ -100,7 +100,22 @@ body {
 
 /* Product Cart Styles  */
 .products-container {
-  margin: 0px 165px;
+  margin: 0px 150px;
+}
+
+.product-title {
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 24px;
 }
 .product {
   width: 301px;
