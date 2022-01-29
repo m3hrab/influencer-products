@@ -1,0 +1,35 @@
+/* Responsive Header section */
+/* tablet  */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+  }
+}
+
+/* mobile  */
+@media only screen and (max-width: 480px) {
+  .nav-items nav {
+    display: none;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 35px 16px;
+  }
+  .toggle-bar {
+    display: block;
+  }
+
+  .mobile-cart {
+    display: block;
+  }
+
+  .mobile-cart a {
+    color: #3a3a3a;
+  }
+  .logo-text {
+    font-size: 16px;
+  }
+}
