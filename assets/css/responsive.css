@@ -39,6 +39,22 @@
     width: 257px;
     height: 257px;
   }
+
+  /* Brand logos section  */
+  .brand-logo-container {
+    border: none;
+    margin: 50px 16px 50px 26px;
+    padding: 0px;
+  }
+
+  .brand-logos {
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+  }
+
+  .brand-logo img {
+    width: 60%;
+  }
 }
 
 /* mobile  */
@@ -101,5 +117,22 @@
   .top-header-img img {
     width: 257px;
     height: 257px;
+  }
+
+  /* Brand logos section  */
+  .brand-logo-container {
+    border: none;
+    margin: 50px 10px 50px 30px;
+    padding: 0px;
+  }
+
+  .brand-logos {
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    grid-row-gap: 15px;
+  }
+
+  .brand-logo img {
+    width: 55%;
   }
 }
