@@ -18,10 +18,8 @@
     justify-content: space-between;
     margin: 35px 16px;
   }
-  .toggle-bar {
-    display: block;
-  }
 
+  .toggle-bar,
   .mobile-cart {
     display: block;
   }

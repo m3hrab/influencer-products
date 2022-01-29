@@ -7,10 +7,7 @@ body {
   margin: 0px;
 }
 
-.toggle-bar {
-  display: none;
-}
-
+.toggle-bar,
 .mobile-cart {
   display: none;
 }
@@ -31,6 +28,7 @@ body {
 .nav-items nav {
   display: flex;
 }
+
 .nav-items nav a {
   text-decoration: none;
   font-size: 16px;
