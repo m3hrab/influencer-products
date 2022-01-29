@@ -70,6 +70,7 @@ body {
 .top-header-text a:hover .fa-arrow-right {
   transform: translateX(3px) rotate(360deg);
 }
+
 .fa-arrow-right {
   margin-left: 5px;
   transition: transform 0.5s ease-in-out;
@@ -78,6 +79,7 @@ body {
 .top-header-img img {
   transition: transform 0.8s ease-in-out;
 }
+
 .top-header-img:hover img {
   transform: scale(1.15) rotate(30deg);
 }
