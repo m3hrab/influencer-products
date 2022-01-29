@@ -157,3 +157,12 @@ body {
   color: #5e6366;
   font-size: 14px;
 }
+
+.see-more-btn {
+  position: relative;
+  top: 20px;
+  left: 88%;
+  color: #e02c6dde;
+  font-size: 16px;
+  text-decoration: none;
+}
