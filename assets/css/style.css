@@ -97,3 +97,48 @@ body {
   grid-template-columns: repeat(7, 1fr);
   align-items: center;
 }
+
+/* Product Cart Styles  */
+.products-container {
+  margin: 0px 165px;
+}
+.product {
+  width: 301px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 18px 12.8px;
+  padding-bottom: 10px;
+}
+
+.product h3 {
+  font-weight: 500;
+  font-size: 28px;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+.product .price {
+  font-size: 24px;
+  margin: 0px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.ratings {
+  color: #fb8200;
+  font-size: 14px;
+}
+
+.ratings .empty {
+  color: lightgrey;
+}
+
+.ratings .r-value {
+  color: #5e6366;
+  margin-left: 8px;
+}
+
+.product p {
+  color: #5e6366;
+  font-size: 14px;
+}
